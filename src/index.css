@@ -41,10 +41,6 @@ textarea {
   outline: none;
 }
 
-textarea {
-  resize: none;
-}
-
 img {
   display: block;
   width: 100%;
