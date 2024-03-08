@@ -1,18 +1,19 @@
 .table {
   width: 800px;
   margin: 0 auto;
-  padding: 15px;
-  border-collapse: collapse;
 }
 
 .table {
   th {
-    border-radius: 10px;
+    border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
     width: calc(100% / 3);
-    background-color: #4b4747;
-    color: #fbfbfb;
+    font-size: 20px;
+    background: linear-gradient(145deg, #2e2d2d, #212121);
+    box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+      inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+    color: rgb(161, 161, 161);
     text-transform: capitalize;
   }
 
