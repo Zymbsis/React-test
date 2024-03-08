@@ -1,14 +1,13 @@
 import css from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ item }) => {
-  const keys = Object.keys(item[0]);
   return (
     <table className={css.table}>
       <thead>
         <tr>
-          <th>{keys[1]}</th>
-          <th>{keys[2]}</th>
-          <th>{keys[3]}</th>
+          <th>Type</th>
+          <th>Amount</th>
+          <th>Currency</th>
         </tr>
       </thead>
 
