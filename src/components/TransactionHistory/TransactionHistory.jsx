@@ -1,4 +1,4 @@
-import css from './Transaction-History.module.css';
+import css from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ item }) => {
   const keys = Object.keys(item[0]);
