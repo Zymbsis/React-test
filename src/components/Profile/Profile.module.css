@@ -3,9 +3,11 @@
   height: 520px;
   padding-top: 15px;
   margin: 0 auto;
-  border: 1px solid grey;
   border-radius: 15px;
   margin-bottom: 25px;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 
 .wrapper {
@@ -43,22 +45,26 @@
 .list {
   width: calc(100% - 30px);
   display: flex;
+  gap: 10px;
   margin: 0 auto;
   padding-left: 10px;
   padding-right: 10px;
-  border: 1px solid darkgrey;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
 }
 
 .list {
   li {
+    cursor: pointer;
     width: calc(100% / 3);
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     gap: 4px;
+    background-color: #e3edf7;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+      -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
   }
 
   span {
@@ -68,14 +74,6 @@
     font-weight: 600;
     letter-spacing: 1.5;
     text-transform: capitalize;
-  }
-
-  li:nth-child(1) {
-    border-right: 1px solid darkgrey;
-  }
-
-  li:nth-child(3) {
-    border-left: 1px solid darkgrey;
   }
 
   span:last-of-type {

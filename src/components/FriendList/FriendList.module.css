@@ -10,9 +10,13 @@
 
 .list {
   li {
+    cursor: pointer;
     width: calc((100% - 40px) / 5);
     padding: 5px 0;
-    border: 1px solid darkgray;
-    border-radius: 15px;
+    background-color: #e3edf7;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+      -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
   }
 }
